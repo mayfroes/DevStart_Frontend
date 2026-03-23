@@ -29,10 +29,10 @@ function obtenhaMensagem(valor) {
 }
 
 
-// -- Função ajustada para cada valor inserido na lista de compras
+// -- Função ajustada para cada valor inserido na lista de compras, todo o bloco foi ajustado
 function obtenhaMensagem(valor) {
   if (valor < 0) {
-    return "Número inválido";
+    return "Número inválido"; 
   }
   if (valor === 0) {
     return "Você não tem nenhum item em sua lista de compras";
